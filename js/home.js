@@ -12,7 +12,7 @@ import { socialsData } from "./data/socialsData.js";
 const toast = new Toast;
 
 new Clock('#clock_1', clockData);
-// socials('footer .socials', socialsData);
+socials('footer .socials', socialsData);
 new Progressbar('.left-column');
 new SocialsOOP('footer .socials', socialsData);
 new Form('.hero form', toast);
